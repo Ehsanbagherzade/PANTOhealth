@@ -22,6 +22,7 @@ export interface GetStationsResponse {
 }
 
 export interface UseStationsReturn {
+  stations: Station[];
   filteredStations: Station[];
   cities: string[];
   selectedCity: string | null;
